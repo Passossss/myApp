@@ -13,16 +13,18 @@ class _DetailPageState extends State<DetailPage> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Detail'),
-        ),
-        body: Center(
-          child: ElevatedButton(
-            onPressed() {},
-             child: const Text('Voltar',
-             style: TextStyle(
+      ),
+      body: Center(
+        child: ElevatedButton(
+          onPressed: () {},
+          child: const Text(
+            'Voltar',
+            style: TextStyle(
               fontSize: 30,
-             )),
+            ),
+          ),
         ),
-        ),
-        );
+      ),
+    );
   }
-  }
+}
