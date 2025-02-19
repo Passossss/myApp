@@ -45,7 +45,7 @@ app.*.map.json
 /android/app/release
 
 
-.yaml
+*.yaml
 linux/
 *.iml
 *.lock
