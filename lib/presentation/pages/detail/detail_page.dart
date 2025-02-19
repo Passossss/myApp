@@ -16,7 +16,9 @@ class _DetailPageState extends State<DetailPage> {
       ),
       body: Center(
         child: ElevatedButton(
-          onPressed: () {},
+          onPressed: () {
+            Navigator.of(context).pop();
+          },
           child: const Text(
             'Voltar',
             style: TextStyle(
